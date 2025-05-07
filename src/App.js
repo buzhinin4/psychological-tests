@@ -8,7 +8,7 @@ import TestErrorPage from "./pages/TestErrorPage/TestErrorPage.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/psychological-tests">
       <Routes>
         <Route path="/" element={<ThemesPage />} />
         <Route path="/themes/:themeId/tests" element={<TestsPage />} />
