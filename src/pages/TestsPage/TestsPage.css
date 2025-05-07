@@ -1,0 +1,231 @@
+.tests-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-header {
+  margin-bottom: 3rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin: 0 0 1.5rem 0;
+}
+
+.breadcrumbs {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs span {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.breadcrumbs span:first-child:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.tests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.test-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  overflow: hidden;
+}
+
+.test-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-color: #3498db;
+}
+
+.test-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #f1f8fe;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  flex-shrink: 0;
+}
+
+.test-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.test-content {
+  flex-grow: 1;
+}
+
+.test-title {
+  color: #2c3e50;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.test-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.questions-count {
+  background: #f8f9fa;
+  color: #7f8c8d;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.test-result-info {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.result-percentage {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.percentage-bar {
+  height: 4px;
+  background-color: #4caf50;
+  border-radius: 2px;
+  flex-grow: 1;
+  max-width: 100px;
+}
+
+.result-percentage span {
+  font-weight: 500;
+  color: #333;
+}
+
+.result-date {
+  font-size: 13px;
+  color: #888;
+}
+
+.test-arrow {
+  width: 24px;
+  height: 24px;
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.test-arrow svg {
+  width: 100%;
+  height: 100%;
+  fill: #bdc3c7;
+  transition: fill 0.2s;
+}
+
+.test-card:hover .test-arrow svg {
+  fill: #3498db;
+}
+
+.error-message {
+  text-align: center;
+  padding: 2rem;
+  color: #e74c3c;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+  }
+
+  .test-card {
+    padding: 1rem;
+  }
+
+  .test-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+  }
+
+  .test-title {
+    font-size: 1.1rem;
+  }
+
+  .questions-count {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+  }
+
+  .page-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .tests-list {
+    gap: 0.5rem;
+  }
+
+  .test-card {
+    padding: 0.8rem;
+  }
+
+  .test-title {
+    font-size: 1rem;
+  }
+
+  .test-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .test-arrow {
+    width: 20px;
+    height: 20px;
+  }
+}
