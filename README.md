@@ -33,12 +33,6 @@
 
 Test results are automatically saved in browser cookies and remain available for **30 days** from the completion date.
 
-## 📱 Responsive Design
-
-| Mobile View                                                                         | Tablet View                                                                 | Desktop View                                                                      |
-| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| <img src="  https://cdn-icons-png.flaticon.com/512/17563/17563987.png" width="100"> | <img src="https://cdn-icons-png.flaticon.com/512/14/14001.png" width="100"> | <img src="https://cdn-icons-png.flaticon.com/512/15885/15885288.png" width="100"> |
-
 ## ▶️ Getting Started
 
 1. Access the live demo:  
